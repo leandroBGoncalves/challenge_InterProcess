@@ -42,7 +42,6 @@ export function DashBoardList() {
         let parseLocal = JSON.parse(localStorage)
         setDados(parseLocal)
     }
-    console.log(dados.name)
 
     useEffect(() => {
         getLocal()
